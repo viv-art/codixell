@@ -1,0 +1,1953 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./assets/images/logo/favicon.icon" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.google.com/specimen/Figtree">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.google.com/share?selection.family=Figtree:ital,wght@0,300..900;1,300..900">
+    <link href="@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600$display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CircularStd-Black.otf">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="work.css">
+
+
+
+</head>
+
+<body>
+
+
+
+    <div class="overlay " data-overlay></div>
+    <div class="modal closed" data-modal>
+        <div class="modal-close-overlay" data-modal-overlay></div>
+        <div class="modal-content"><button class="modal-close-btn" data-modal-close><ion-icon
+                    name="close-outline"></ion-icon></button>
+            <div class="newsletter-img"><img
+                    src="https://img.freepik.com/free-photo/horizontal-view-attractive-young-black-man-with-toothy-smile-shows-okay-gesture-says-alright-likes-somebodys-idea_273609-23585.jpg?size=626&ext=jpg&ga=GA1.1.504372548.1700062447&semt=sph"
+                    alt="subscribe newsletter" width="400" height="400"></div>
+            <div class="newsletter">
+                <form action="#">
+                    <div class="newsletter-header">
+                        <h3 class="newsletter-title">Subscribe Newsletter. </h3>
+                        <p class="newsletter-desc">Lorem ipsum dolor sit amet consectetur kekdsjd ejdkd. </p>
+                    </div><input type="email" name="email" class="email-feild" placeholder="Email Address"
+                        required><button type="submit" class="btn-newsletter">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="notification-toast closed" data-toast><button class="toast-class-btn" data-toast-close><ion-icon
+                name="close-outline"></ion-icon></button>
+        <div class="toast-banner"><img
+                src="https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?size=626&ext=jpg&ga=GA1.1.504372548.1700062447&semt=sph"
+                width="80" height="70" alt=""></div>
+        <div class="toast-detail">
+            <p class="toast-message">Lorem ipsum dolor sit. </p>
+            <p class="toast-title">hdkbn krl fmke cm </p>
+            <p class="toast-meta"><time datetime="PT2M">2 minutes</time>ago </p>
+        </div>
+    </div>
+    <header>
+        <div class="header">
+            <div class="mobile-bottom-navigatio">
+                <li class="action-btn" data-mobile-menu-open-btn><ion-icon name="menu-outline"></ion-icon></li>
+
+                <li><i class='bx bx-search'></i></li>
+            </div><a href="#" class="header-logo"><img src="codixels-logo.png" alt="Anon's logo" width="170"
+                    height="36"></a>
+
+            <nav>
+                <ul class="nav--links">
+                    <li><i class='bx bx-message-rounded-error'></i></li>
+                    <li><i class='bx bx-folder'></i></li>
+                    <li><i class='bx bx-user'></i></li>
+                    <li><i class='bx bx-shopping-bag'></i></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- <header>
+
+        <div class="header-top">
+
+            <div class="container">
+
+                <ul class="header-social-container">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="header-alert-news">
+                    <p>
+                        <b>Free Shipping</b>
+                        This Week Order Over - $55
+                    </p>
+                </div>
+
+                <div class="header-top-actions">
+
+                    <select name="currency">
+
+                        <option value="usd">USD &dollar;</option>
+                        <option value="eur">EUR &euro;</option>
+
+                    </select>
+
+                    <select name="language">
+
+                        <option value="en-US">English</option>
+                        <option value="es-ES">Espa&ntilde;ol</option>
+                        <option value="fr">Fran&ccedil;ais</option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="header-main">
+
+            <div class="container">
+
+                <a href="#" class="header-logo">
+                    <img src="./assets/images/logo/logo.svg" alt="Anon's logo" width="120" height="36">
+                </a>
+
+                <div class="header-search-container">
+
+                    <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+
+                    <button class="search-btn">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </button>
+
+                </div>
+
+                <div class="header-user-actions">
+
+                    <button class="action-btn">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </button>
+
+                    <button class="action-btn">
+                        <ion-icon name="heart-outline"></ion-icon>
+                        <span class="count">0</span>
+                    </button>
+
+                    <button class="action-btn">
+                        <ion-icon name="bag-handle-outline"></ion-icon>
+                        <span class="count">0</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <nav class="desktop-navigation-menu">
+
+            <div class="container">
+
+                <ul class="desktop-menu-category-list">
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Home</a>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Categories</a>
+
+                        <div class="dropdown-panel">
+
+                            <ul class="dropdown-panel-list">
+
+                                <li class="menu-title">
+                                    <a href="#">Electronics</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Desktop</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Laptop</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Camera</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Tablet</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Headphone</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">
+                                        <img src="./assets/images/electronics-banner-1.jpg" alt="headphone collection"
+                                            width="250" height="119">
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+
+                                <li class="menu-title">
+                                    <a href="#">Men's</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Formal</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Casual</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Sports</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Jacket</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Sunglasses</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">
+                                        <img src="./assets/images/mens-banner.jpg" alt="men's fashion" width="250"
+                                            height="119">
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+
+                                <li class="menu-title">
+                                    <a href="#">Women's</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Formal</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Casual</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Perfume</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Cosmetics</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Bags</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">
+                                        <img src="./assets/images/womens-banner.jpg" alt="women's fashion" width="250"
+                                            height="119">
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                            <ul class="dropdown-panel-list">
+
+                                <li class="menu-title">
+                                    <a href="#">Electronics</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Smart Watch</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Smart TV</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Keyboard</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Mouse</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">Microphone</a>
+                                </li>
+
+                                <li class="panel-list-item">
+                                    <a href="#">
+                                        <img src="./assets/images/electronics-banner-2.jpg" alt="mouse collection"
+                                            width="250" height="119">
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Men's</a>
+
+                        <ul class="dropdown-list">
+
+                            <li class="dropdown-item">
+                                <a href="#">Shirt</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Shorts & Jeans</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Safety Shoes</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Wallet</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Women's</a>
+
+                        <ul class="dropdown-list">
+
+                            <li class="dropdown-item">
+                                <a href="#">Dress & Frock</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Earrings</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Necklace</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Makeup Kit</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Jewelry</a>
+
+                        <ul class="dropdown-list">
+
+                            <li class="dropdown-item">
+                                <a href="#">Earrings</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Couple Rings</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Necklace</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Bracelets</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Perfume</a>
+
+                        <ul class="dropdown-list">
+
+                            <li class="dropdown-item">
+                                <a href="#">Clothes Perfume</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Deodorant</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Flower Fragrance</a>
+                            </li>
+
+                            <li class="dropdown-item">
+                                <a href="#">Air Freshener</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Blog</a>
+                    </li>
+
+                    <li class="menu-category">
+                        <a href="#" class="menu-title">Hot Offers</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+        <div class="mobile-bottom-navigation">
+
+            <button class="action-btn" data-mobile-menu-open-btn>
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+
+            <button class="action-btn">
+                <ion-icon name="bag-handle-outline"></ion-icon>
+
+                <span class="count">0</span>
+            </button>
+
+            <button class="action-btn">
+                <ion-icon name="home-outline"></ion-icon>
+            </button>
+
+            <button class="action-btn">
+                <ion-icon name="heart-outline"></ion-icon>
+
+                <span class="count">0</span>
+            </button>
+
+            <button class="action-btn" data-mobile-menu-open-btn>
+                <ion-icon name="grid-outline"></ion-icon>
+            </button>
+
+        </div>
+
+        <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+            <div class="menu-top">
+                <h2 class="menu-title">Menu</h2>
+
+                <button class="menu-close-btn" data-mobile-menu-close-btn>
+                    <ion-icon name="close-outline"></ion-icon>
+                </button>
+            </div>
+
+            <ul class="mobile-menu-category-list">
+
+                <li class="menu-category">
+                    <a href="#" class="menu-title">Home</a>
+                </li>
+
+                <li class="menu-category">
+
+                    <button class="accordion-menu" data-accordion-btn>
+                        <p class="menu-title">Men's</p>
+
+                        <div>
+                            <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                            <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                        </div>
+                    </button>
+
+                    <ul class="submenu-category-list" data-accordion>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Shirt</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Shorts & Jeans</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Safety Shoes</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Wallet</a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li class="menu-category">
+
+                    <button class="accordion-menu" data-accordion-btn>
+                        <p class="menu-title">Women's</p>
+
+                        <div>
+                            <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                            <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                        </div>
+                    </button>
+
+                    <ul class="submenu-category-list" data-accordion>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Dress & Frock</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Earrings</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Necklace</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Makeup Kit</a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li class="menu-category">
+
+                    <button class="accordion-menu" data-accordion-btn>
+                        <p class="menu-title">Jewelry</p>
+
+                        <div>
+                            <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                            <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                        </div>
+                    </button>
+
+                    <ul class="submenu-category-list" data-accordion>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Earrings</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Couple Rings</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Necklace</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Bracelets</a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li class="menu-category">
+
+                    <button class="accordion-menu" data-accordion-btn>
+                        <p class="menu-title">Perfume</p>
+
+                        <div>
+                            <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                            <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                        </div>
+                    </button>
+
+                    <ul class="submenu-category-list" data-accordion>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Clothes Perfume</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Deodorant</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Flower Fragrance</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Air Freshener</a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li class="menu-category">
+                    <a href="#" class="menu-title">Blog</a>
+                </li>
+
+                <li class="menu-category">
+                    <a href="#" class="menu-title">Hot Offers</a>
+                </li>
+
+            </ul>
+
+            <div class="menu-bottom">
+
+                <ul class="menu-category-list">
+
+                    <li class="menu-category">
+
+                        <button class="accordion-menu" data-accordion-btn>
+                            <p class="menu-title">Language</p>
+
+                            <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+                        </button>
+
+                        <ul class="submenu-category-list" data-accordion>
+
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">English</a>
+                            </li>
+
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Espa&ntilde;ol</a>
+                            </li>
+
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">Fren&ccedil;h</a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li class="menu-category">
+                        <button class="accordion-menu" data-accordion-btn>
+                            <p class="menu-title">Currency</p>
+                            <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+                        </button>
+
+                        <ul class="submenu-category-list" data-accordion>
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">USD &dollar;</a>
+                            </li>
+
+                            <li class="submenu-category">
+                                <a href="#" class="submenu-title">EUR &euro;</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+                <ul class="menu-social-container">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </header> -->
+
+
+    <div>
+        <div class="header-top">
+            <div class="container">
+
+                <ul>
+                    <li>
+                        <p href="#" class="socials">Websites by Codixels</p>
+                    </li>
+                    <li>
+                        <p href="#" class="socials">Corporate Pricing</p>
+                    </li>
+                    <li>
+                        <p href="#" class="socials">Reseller Program</p>
+                    </li>
+                    <li>
+                        <p href="#" class="socials">CodixelsCreate</p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <div class="header-main ">
+
+            <a href="#" class="header-logo"><img src="codixels-logo.png" alt="Anon's logo" width="170" height="36"></a>
+            <div class="header-search-container"><input type="search" name="search" class="search-field"
+                    placeholder="Search"><button class="search-btn"><ion-icon name="search-outline"></ion-icon></button>
+            </div>
+            <div class="header-user-actions"><button class="action-btn"><i class='bx bx-message-rounded-error'></i>
+                    <p>Help is here<br>091*******</p>
+                </button><button class="action-btn"><i class='bx bx-folder'></i>
+                    <p>My Projects</p>
+                </button><button class="action-btn"><i class='bx bx-user'></i>
+                    <p>Sign in</p>
+                </button><button class="action-btn"><i class='bx bx-shopping-bag'></i>
+                    <p>Cart</p>
+                </button></div>
+        </div>
+    </div>
+
+    <nav class="desktop-navigation-menu">
+        <!-- <div class="container"> -->
+        <ul class="desktop-menu-category-list">
+            <li class="menu-category">
+                <a href="#" class="menu-title">Deals</a>
+            </li>
+
+            <li class="menu-category">
+                <a href="#" class="menu-title">Business Cards</a>
+                <div class="dropdown-panel">
+                    <ul class="dropdown-panel-list">
+                        <li class="menu-title">
+                            <a href="#">Electronics</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Desktop</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Laptop</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Camera</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Tablet</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Headphone</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">
+                                <img src="https://img.freepik.com/free-photo/levitating-music-headphones-display_23-2149817602.jpg?size=626&ext=jpg&ga=GA1.2.504372548.1700062447&semt=ais"
+                                    alt="headphone collection" width="250" height="119">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="dropdown-panel-list">
+                        <li class="menu-title">
+                            <a href="#">Electronics</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Desktop</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Laptop</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Camera</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Tablet</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Headphone</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">
+                                <img src="https://img.freepik.com/free-photo/levitating-music-headphones-display_23-2149817602.jpg?size=626&ext=jpg&ga=GA1.2.504372548.1700062447&semt=ais"
+                                    alt="headphone collection" width="250" height="119">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="dropdown-panel-list">
+                        <li class="menu-title">
+                            <a href="#">Electronics</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Desktop</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Laptop</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Camera</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Tablet</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Headphone</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">
+                                <img src="https://img.freepik.com/free-photo/levitating-music-headphones-display_23-2149817602.jpg?size=626&ext=jpg&ga=GA1.2.504372548.1700062447&semt=ais"
+                                    alt="headphone collection" width="250" height="119">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="dropdown-panel-list">
+                        <li class="menu-title">
+                            <a href="#">Electronics</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Desktop</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Laptop</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Camera</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Tablet</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">Headphone</a>
+                        </li>
+
+                        <li class="panel-list-item">
+                            <a href="#">
+                                <img src="https://img.freepik.com/free-photo/levitating-music-headphones-display_23-2149817602.jpg?size=626&ext=jpg&ga=GA1.2.504372548.1700062447&semt=ais"
+                                    alt="headphone collection" width="250" height="119">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="menu-category">
+                <a href="#" class="menu-title">print Advertising & Office</a>
+
+                <ul class="dropdown-list">
+                    <li class="dropdown-item">
+                        <a href="#">Shirt</a>
+                    </li>
+
+                    <li class="dropdown-item">
+                        <a href="#">Shorts & jeans</a>
+                    </li>
+
+                    <li class="dropdown-item">
+                        <a href="#">Safety Shoes</a>
+                    </li>
+
+                    <li class="dropdown-item">
+                        <a href="#">wallet</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="menu-category">
+                <a href="#" class="menu-title">Signs,
+                    Banner & Posters</a>
+
+                <ul class="dropdown-list">
+                    <li class="dropdown-item">
+                        <a href="#">Dress & Frock</a>
+                    </li>
+
+                    <li class="dropdown-item">
+                        <a href="#">Earrings</a>
+                    </li>
+
+                    <li class="dropdown-item">
+                        <a href="#">Necklace</a>
+                    </li>
+
+                    <li class="dropdown-item">
+                        <a href="#">Makeup kit</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="menu-category">
+                <a href="#" class="menu-title">Label,
+                    Stickers & Packaging</a>
+
+                <ul class="dropdown-list">
+                    <li class="dropdown-item">
+                        <a href="#">Earrings</a>
+                    </li>
+
+                    <li class="dropdown-item">
+                        <a href="#">Couple Rings</a>
+                    </li>
+
+                    <li class="dropdown-item">
+                        <a href="#">Necklace</a>
+                    </li>
+
+                    <li class="dropdown-item">
+                        <a href="#">Bracelets</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="menu-category">
+                <a href="#" class="menu-title">Clothing & Bags</a>
+
+                <ul class="dropdown-list">
+                    <li class="dropdown-item">
+                        <a href="#">Clothes perfume</a>
+                    </li>
+
+                    <li class="dropdown-item">
+                        <a href="#">SDeodorant</a>
+                    </li>
+
+                    <li class="dropdown-item">
+                        <a href="#">Flower Fragrance</a>
+                    </li>
+
+                    <li class="dropdown-item">
+                        <a href="#">Air Freshener</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="menu-category">
+                <a href="#" class="menu-title">Promotional Products</a>
+            </li>
+
+            <li class="menu-category">
+                <a href="#" class="menu-title">Invitations,
+                    Gifts & Stationery</a>
+            </li>
+            <li class="menu-category">
+                <a href="#" class="menu-title">Websites by Codixels</a>
+            </li>
+            <li class="menu-category">
+                <a href="#" class="menu-title">Design & Logo</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <!-- <nav class="desktop-navigation-menu">
+
+        <ul class="desktop-menu-category-list">
+            <li class="menu-category">
+                <p class="menu-title">Deals</p>
+            </li>
+            <li class="menu-category">
+                <p href="#" class="menu-title">Business Cards</p>
+            </li>
+            <li class="menu-category">
+                <p href="#" class="menu-title">print Advertising & Office</p>
+            </li>
+            <li class="menu-category">
+                <p href="#" class="menu-title">Signs,
+                    Banner & Posters</p>
+            </li>
+            <li class="menu-category">
+                <p href="#" class="menu-title">Label,
+                    Stickers & Packaging</p>
+            </li>
+            <li class="menu-category">
+                <p href="#" class="menu-title">Clothing & Bags</p>
+            </li>
+            <li class="menu-category">
+                <p href="#" class="menu-title">Promotional Products</p>
+            </li>
+            <li class="menu-category">
+                <p href="#" class="menu-title">Invitations,
+                    Gifts & Stationery</p>
+            </li>
+            <li class="menu-category">
+                <p href="#" class="menu-title">Websites by Codixels</p>
+            </li>
+            <li class="menu-category">
+                <p href="#" class="menu-title">Design & Logo</p>
+            </li>
+        </ul>
+        </div>
+    </nav> -->
+    <!-- <nav class="mobile-navigation-menu has-scrollbar" data-mobile-menu>
+        <div class="menu-top">
+            <h2 class="menu-title">Menu</h2><button class="menu-close-btn" data-mobile-menu-close-btn><ion-icon
+                    name="close-outline"></ion-icon></button>
+        </div>
+        <ul class="mobile-menu-category-list">
+            <li class="menu-category">
+                <p href="#" class="menu-title">Help is here</p>
+            </li>
+            <li class="menu-category">
+                <p href="#" class="menu-title">My Projects</p>
+            </li>
+            <li class="menu-category">
+                <p href="#" class="menu-title">Sign in</p>
+            </li>
+        </ul>
+        <ul class="mobile-menu-category-list">
+            <li class="menu-category"><a href="#" class="menu-title">Deals</a></li>
+            <li class="menu-category"><button class="accordion-menu" data-accordion-btn>
+                    <p class="menu-title">Business Cards</p>
+                    <div><i class='bx bx-chevron-right'></i></div>
+                </button></li>
+            <li class="menu-category"><button class="accordion-menu" data-accordion-btn>
+                    <p class="menu-title">Print Advertising & Office</p>
+                    <div><i class='bx bx-chevron-right'></i></div>
+                </button></li>
+            <li class="menu-category"><button class="accordion-menu" data-accordion-btn>
+                    <p class="menu-title">Signs,
+                        Banners & Poster</p>
+                    <div><i class='bx bx-chevron-right'></i></div>
+                </button></li>
+            <li class="menu-category"><button class="accordion-menu" data-accordion-btn>
+                    <p class="menu-title">Labels,
+                        Stickers & Packaging</p>
+                    <div><i class='bx bx-chevron-right'></i></div>
+                </button></li>
+            <li class="menu-category"><button class="accordion-menu" data-accordion-btn>
+                    <p class="menu-title">Clothing & Bags</p>
+                    <div><i class='bx bx-chevron-right'></i></div>
+                </button></li>
+            <li class="menu-category"><button class="accordion-menu" data-accordion-btn>
+                    <p class="menu-title">Promotional Products</p>
+                    <div><i class='bx bx-chevron-right'></i></div>
+                </button></li>
+            <li class="menu-category"><button class="accordion-menu" data-accordion-btn>
+                    <p class="menu-title">Invitations,
+                        Gifts & Stationery</p>
+                    <div><i class='bx bx-chevron-right'></i></div>
+                </button></li>
+            <li class="menu-category"><button class="accordion-menu" data-accordion-btn>
+                    <p class="menu-title">Website by Codixels</p>
+                    <div><i class='bx bx-chevron-right'></i></div>
+                </button></li>
+            <li class="menu-category"><button class="accordion-menu" data-accordion-btn>
+                    <p class="menu-title">Design & Logo</p>
+                    <div><i class='bx bx-chevron-right'></i></div>
+                </button></li>
+            <li class="menu-category"><button class="accordion-menu" data-accordion-btn>
+                    <p class="menu-title">Websites By Codixels</p>
+                </button></li>
+            <li class="menu-category"><button class="accordion-menu" data-accordion-btn>
+                    <p class="menu-title">Corporate Pricing</p>
+                </button></li>
+            <li class="menu-category"><button class="accordion-menu" data-accordion-btn>
+                    <p class="menu-title">Reseller Program</p>
+                </button></li>
+            <li class="menu-category"><button class="accordion-menu" data-accordion-btn>
+                    <p class="menu-title">CodixelCreate</p>
+                </button></li>
+        </ul>
+    </nav> -->
+
+    <nav class="mobile-navigation-menu has-scrollbar" data-mobile-menu>
+        <div class="menu-top">
+            <h2 class="menu-title">Menu</h2>
+
+            <button class="menu-close-btn" data-mobile-menu-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+        </div>
+
+        <ul class="mobile-menu-category-list">
+            <li class="menu-category">
+                <a href="#" class="menu-title">Home</a>
+            </li>
+
+            <li class="menu-category">
+                <button class="accordion-menu" data-accordion-btn>
+
+                    <p class="menu-title">Men's</p>
+
+                    <div>
+                        <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                        <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                    </div>
+                </button>
+
+                <ul class="submenu-category-list" data-accordion>
+
+                    <li class="submenu-category">
+                        <a href="#" class="submenu-title">Shirts</a>
+                    </li>
+
+                    <li class="submenu-category">
+                        <a href="#" class="submenu-title">Shorts & Jeans</a>
+                    </li>
+
+                    <li class="submenu-category">
+                        <a href="#" class="submenu-title">Safety Shoes</a>
+                    </li>
+
+                    <li class="submenu-category">
+                        <a href="#" class="submenu-title">wallet</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="menu-category">
+                <button class="accordion-menu" data-accordion-btn>
+                    <p class="menu-title">Women's</p>
+
+                    <div>
+                        <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                        <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                    </div>
+                </button>
+
+                <ul class="submenu-category-list" data-accordion>
+
+                    <li class="submenu-category">
+                        <a href="#" class="submenu-title">Dress & Frock</a>
+                    </li>
+
+                    <li class="submenu-category">
+                        <a href="#" class="submenu-title">Earrings</a>
+                    </li>
+
+                    <li class="submenu-category">
+                        <a href="#" class="submenu-title">Necklace</a>
+                    </li>
+
+                    <li class="submenu-category">
+                        <a href="#" class="submenu-title">Makeup kit</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="menu-category">
+                <button class="accordion-menu" data-accordion-btn>
+                    <p class="menu-title">Jewelry</p>
+
+                    <div>
+                        <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                        <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                    </div>
+                </button>
+
+                <ul class="submenu-category-list" data-accordion>
+
+                    <li class="submenu-category">
+                        <a href="#" class="submenu-title">Earrings</a>
+                    </li>
+
+                    <li class="submenu-category">
+                        <a href="#" class="submenu-title">Couple Rings</a>
+                    </li>
+
+                    <li class="submenu-category">
+                        <a href="#" class="submenu-title">Necklace</a>
+                    </li>
+
+                    <li class="submenu-category">
+                        <a href="#" class="submenu-title">Bracelets</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="menu-category">
+                <button class="accordion-menu" data-accordion-btn>
+                    <p class="menu-title">Perfume</p>
+
+                    <div>
+                        <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                        <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                    </div>
+                </button>
+
+                <ul class="submenu-category-list" data-accordion>
+
+                    <li class="submenu-category">
+                        <a href="#" class="submenu-title">Clothes perfume</a>
+                    </li>
+
+                    <li class="submenu-category">
+                        <a href="#" class="submenu-title">Deodorant</a>
+                    </li>
+
+                    <li class="submenu-category">
+                        <a href="#" class="submenu-title">Flower Fragrance</a>
+                    </li>
+
+                    <li class="submenu-category">
+                        <a href="#" class="submenu-title">Air Freshener</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="menu-category">
+                <a href="#" class="menu-title">Blog</a>
+            </li>
+
+            <li class="menu-category">
+                <a href="#" class="menu-title">Hot Offers</a>
+            </li>
+        </ul>
+
+        <div class="menu-bottom">
+            <ul class="menu-category-list">
+                <li class="menu-category">
+                    <button class="accordion-menu" data-accordion-btn>
+                        <p class="menu-title">language</p>
+
+                        <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+                    </button>
+
+                    <ul class="submenu-category-list" data-accordion>
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">English</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Espa&ntilde;ol</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">Fren&ccedil;h</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="menu-category">
+                    <button class="accordion-menu" data-accordion-btn>
+                        <p class="menu-title">Currency</p>
+
+                        <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+                    </button>
+
+                    <ul class="submenu-category-list" data-accordion>
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">USD &dollar;</a>
+                        </li>
+
+                        <li class="submenu-category">
+                            <a href="#" class="submenu-title">EUR &euro;</a>
+                        </li>
+
+
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="menu-social-container">
+                <li>
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="section1">
+        <section>
+            <p>New to Codixel? Enjoy 25% off your first order Create your account & use code: NEW25 </p>
+        </section>
+    </div>
+    <div class="swan-bounded-content ">
+        <div class="swan-banner">
+            <div class="swan-banner-text-container">
+                <div class="swan-banner-text">
+                    <p class="swan-banner-eyebrow ">Over 3,
+                        000 five-star reviews </p>
+                    <p class="swan-banner-title ">“Can’t beat the quality and
+                        price !”</p>
+                    <div class="swan-banner-description">
+                        <div>Verified Buyers like Darrin can<span>'</span>t get enough of our custom tees. Create one
+                            yourself
+                            and find out why. </div>
+                    </div>
+                    <div class="swan-banner-links"><a href="" class="swan-button swan-button-skin-primary ">Shop
+                            T-shirts</a><a href="" class="swan-button swan-button-skin-secondary ">All
+                            Clothing</a></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="swan-banner1">
+        <div class="swan-banner-text-container1">
+            <div class="swan-banner-text1">
+                <p class="swan-banner-eyebrow1">Over 3,
+                    000 five-star reviews </p>
+                <p class="swan-banner-title1 swan-font-primary1">“Can’t beat the quality and
+                    price !”</p>
+                <div class="swan-banner-description1">
+                    <div>Verified Buyers like Darrin can’t get enough of our custom tees. Create one yourself
+                        and find out why. </div>
+                </div>
+                <div class="swan-banner-links1"><a href="" class="swan-button swan-button-skin-primary1">Shop
+                        T-shirts</a><a href="" class="swan-button swan-button-skin-secondary1 ">All
+                        Clothing</a></div>
+            </div>
+
+        </div>
+
+        <div class="banner-image">
+
+            <img src="https://img.freepik.com/premium-photo/screen-printing-preparation-green-tshirt-professional-printing-machine_1304600-735.jpg?ga=GA1.1.574502320.1723232257&semt=ais_hybrid"
+                alt="">
+
+        </div>
+    </div>
+    </div>
+
+    <section class="container1">
+        <div class="">
+            <div class="swiper swip">
+                <h1>Explore all Catergories</h1>
+                <div class="swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="card_image"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_600/legacy_dam/en-us/S001705599/MXP26584-Jan8-Homepage-Category-Tile-BC-002?cb=8ec2cd87bd754846557e35a61359fcca3f1f0491"
+                                alt=""></div>
+                        <div class="card_content">
+                            <p>Business Cards</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card_image"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_600/legacy_dam/en-us/S001704789/MXP26584-Jan8-Homepage-Category-Tile-Postcards-001?cb=cfa8d1b638701affc076140a9ba5892c2a9a95e7"
+                                alt=""></div>
+                        <div class="card_content">
+                            <p>Print Advertising & Office</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card_image"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_600/legacy_dam/en-us/S001705762/MXP26584-Jan8-Homepage-Category-Tile-Banners-001?cb=2d9f82982bfdaa6b6c35c62dbc9a1f41c233cd23"
+                                alt=""></div>
+                        <div class="card_content">
+                            <p>Signs,
+                                Banners & Posters</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card_image"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_600/legacy_dam/en-us/S001705361/MXP26584-Jan8-Homepage-Category-Tile-Stickers-002?cb=df81547693949be24f3d709c3504751d261461a0"
+                                alt=""></div>
+                        <div class="card_content">
+                            <p>Labels,
+                                Stickers & Packaging</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card_image"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_600/legacy_dam/es-us/S001774473/MXP31005-June19-Homepage-Category-Tile-Clothing-001?cb=a9def102b4b27915231cec355c902922235736ea"
+                                alt=""></div>
+                        <div class="card_content">
+                            <p>Clothing & Bags</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card_image"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_600/legacy_dam/en-us/S001705521/MXP26584-Jan8-Homepage-Category-Tile-Promo-001?cb=3bc934b4785af3c6494adea40af0cc2dd2826471"
+                                alt=""></div>
+                        <div class="card_content">
+                            <p>Promotional Products</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card_image"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_600/legacy_dam/en-us/S001705594/MXP26584-Jan8-Homepage-Category-Tile-IA-002?cb=fe4051222ffe6ef77b02c6827debcdeaa45c4873"
+                                alt=""></div>
+                        <div class="card_content">
+                            <p>Invitations,
+                                Gifts & Stationery</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card_image"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_600/legacy_dam/en-us/S001705533/MXP26584-Jan8-Homepage-Category-Tile-Wedding-001?cb=a0f903d7bf9e564c8eea12804a38a11e906b9605"
+                                alt=""></div>
+                        <div class="card_content">
+                            <p>Wedding Shop</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container1">
+            <div class="swiper card-container">
+                <h1>Everything you need to show up & stand out</h1>
+                <div class="swiper-wrapper">
+                    <div class="card1 swiper-slide">
+                        <div class="card-image">
+                            <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001763880/MXP29592-May21-NA-Homepage-JTBD-Outdoor-Events-Tile-001"
+                                alt="">
+                        </div>
+                        <div class="card_content1">
+                            <p>All Signage</p>
+                        </div>
+                    </div>
+                    <div class="card1 swiper-slide">
+                        <div class="card-image"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001782553/MXP30704-Tablecloth-Tile-001"
+                                alt=""></div>
+                        <div class="card_content1">
+                            <p>Tablecloths</p>
+                        </div>
+                    </div>
+                    <div class="card1 swiper-slide">
+                        <div class="card-image"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001782550/MXP30704-ShowUpOutdoor-Events-UseCase-tile-001"
+                                alt=""></div>
+                        <div class="card_content1">
+                            <p>Flags</p>
+                        </div>
+                    </div>
+                    <div class="card1 swiper-slide">
+                        <div class="card-image"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001782545/MXP30704-PaperBag-Tile-001"
+                                alt=""></div>
+                        <div class="card_content1">
+                            <p>Paper Bags</p>
+                        </div>
+                    </div>
+                    <div class="card1 swiper-slide">
+                        <div class="card-image"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001709393/NPIB18028-Overview-stickerssingles-DieCut-NA-001"
+                                alt=""></div>
+                        <div class="card_content1">
+                            <p>Die-Cut Stickers</p>
+                        </div>
+                    </div>
+                    <div class="card1 swiper-slide">
+                        <div class="card-image"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001643212/MXP21851-WinningOutdoors-NVHP-producttile-baseballcaps-002"
+                                alt=""></div>
+                        <div class="card_content1">
+                            <p>Hats</p>
+                        </div>
+                    </div>
+                    <div class="card1 swiper-slide">
+                        <div class="card-image"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001601726/MXP16152-WinningOutdoors-NVHP-producttile-totebags-001"
+                                alt=""></div>
+                        <div class="card_content1">
+                            <p>Totes</p>
+                        </div>
+                    </div>
+                    <div class="card1 swiper-slide">
+                        <div class="card-image"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001643206/MXP21851-JulyNVHP-producttile-drinkware-002"
+                                alt=""></div>
+                        <div class="card_content1">
+                            <p>Water Bottles</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pags">
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="merchandising-section-hero">
+        <div class="swan-bounded-content3 ">
+            <div class="swan-double-banner3">
+                <div class="swan-banner3 ">
+                    <div class="swan-banner-text-container3">
+                        <div class="swan-banner-text3">
+                            <p class="swan-banner-title3 ">Your day,
+                                your way</p>
+                            <div class="swan-banner-description3">
+                                <div>Invites,
+                                    save the dates and everything else wedding. Personalize all the small details
+                                    for your big day. </div>
+                            </div>
+                            <div class="swan-banner-links31">
+                                <div class="swan-banner-links3">Shop all wedding </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swan-banner-image-container3">
+                        <div class="swan-banner-image3"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_384/legacy_dam/en-us/S001785183/MXP30708-FY25Q1-HomePage-July-NA-Banner-Double-WeddingFinal-001"
+                                srcset="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_384/legacy_dam/en-us/S001785183/MXP30708-FY25Q1-HomePage-July-NA-Banner-Double-WeddingFinal-001 768w, https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_512/legacy_dam/en-us/S001785183/MXP30708-FY25Q1-HomePage-July-NA-Banner-Double-WeddingFinal-001 1024w, https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_720/legacy_dam/en-us/S001785183/MXP30708-FY25Q1-HomePage-July-NA-Banner-Double-WeddingFinal-001 1440w, https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_960/legacy_dam/en-us/S001785183/MXP30708-FY25Q1-HomePage-July-NA-Banner-Double-WeddingFinal-001 1920w, https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_1280/legacy_dam/en-us/S001785183/MXP30708-FY25Q1-HomePage-July-NA-Banner-Double-WeddingFinal-001 2560w, https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_1440/legacy_dam/en-us/S001785183/MXP30708-FY25Q1-HomePage-July-NA-Banner-Double-WeddingFinal-001 2880w, https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_1920/legacy_dam/en-us/S001785183/MXP30708-FY25Q1-HomePage-July-NA-Banner-Double-WeddingFinal-001 3840w"
+                                alt="" class="swan-fluid-image"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swan-banner4 ">
+                    <div class="swan-banner-text-container4">
+                        <div class="swan-banner-text4">
+                            <p class="swan-banner-eyebrow4 ">NEW
+                                LOW PRICE</p>
+                            <p class="swan-banner-title4 ">Price drop: Our
+                                most-loved business cards</p>
+                            <div class="swan-banner-description4">
+                                <div>We've lowered prices on all our standard and premium cards, for
+                                    a limited time. Now get 100 standard cards for just $15.99. </div>
+                            </div>
+                            <div class="swan-banner-links4"><a href=""
+                                    class="swan-button swan-button-skin-primary4 ">Standard
+                                    Business Cards</a><a href=""
+                                    class="swan-button swan-button-skin-secondary41 ">Premium
+                                    Business Cards</a></div>
+                        </div>
+                    </div>
+                    <div class="swan-banner-image-container">
+                        <div class="swan-banner-image4"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_384/legacy_dam/en-us/S001779050/MXP30729-BC-Banner-Double-001"
+                                srcset="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_384/legacy_dam/en-us/S001779050/MXP30729-BC-Banner-Double-001 768w, https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_512/legacy_dam/en-us/S001779050/MXP30729-BC-Banner-Double-001 1024w, https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_720/legacy_dam/en-us/S001779050/MXP30729-BC-Banner-Double-001 1440w, https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_960/legacy_dam/en-us/S001779050/MXP30729-BC-Banner-Double-001 1920w, https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_1280/legacy_dam/en-us/S001779050/MXP30729-BC-Banner-Double-001 2560w, https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_1440/legacy_dam/en-us/S001779050/MXP30729-BC-Banner-Double-001 2880w, https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_1920/legacy_dam/en-us/S001779050/MXP30729-BC-Banner-Double-001 3840w"
+                                class="swan-fluid-image"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="merchandising-section-hero1">
+        <div class="swan-bounded-content5 ">
+            <div class="swan-double-banner5">
+                <div class="swan-banner5 ">
+                    <div class="swan-banner-text-container5">
+                        <div class="swan-banner-text5">
+                            <p class="swan-banner-title5 ">Your day,
+                                your way</p>
+                            <div class="swan-banner-description5">
+                                <div>Invites,
+                                    save the dates and everything else wedding. Personalize all the small details
+                                    for your big day. </div>
+                            </div>
+                            <div class="swan-banner-links31">
+                                <div class="swan-banner-links3">Shop all wedding </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-image5">
+                        <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_384/legacy_dam/en-us/S001785183/MXP30708-FY25Q1-HomePage-July-NA-Banner-Double-WeddingFinal-001"
+                            alt="">
+                    </div>
+                </div>
+                <div class="swan-banner51 ">
+                    <div class="swan-banner-text-container5">
+                        <div class="swan-banner-text51">
+                            <p class="swan-banner-eyebrow5 ">NEW
+                                LOW PRICE</p>
+                            <p class="swan-banner-title5 ">Price drop: Our
+                                most-loved business cards</p>
+                            <div class="swan-banner-description5">
+                                <div>We've lowered prices on all our standard and premium cards, for
+                                    a limited time. Now get 100 standard cards for just $15.99. </div>
+                            </div>
+                            <div class="swan-banner-links5"><a href=""
+                                    class="swan-button swan-button-skin-primary4 ">Standard
+                                    Business Cards</a><a href=""
+                                    class="swan-button swan-button-skin-secondary41 ">Premium
+                                    Business Cards</a></div>
+                        </div>
+                    </div>
+                    <div class="banner-image51">
+                        <img src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,w_384/legacy_dam/en-us/S001779050/MXP30729-BC-Banner-Double-001"
+                            alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container1">
+            <div class="swiper card-container1">
+                <h1>Check out our new arrivals</h1>
+                <div class="swiper-wrapper">
+                    <div class="card2 swiper-slide">
+                        <div class="card-image1"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001763835/MXP-29592-metal-frame-T4-NA-001"
+                                alt=""></div>
+                        <div class="card_content1">
+                            <p>Metal A-Frame Signs</p>
+                        </div>
+                    </div>
+                    <div class="card2 swiper-slide">
+                        <div class="card-image1"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001763840/MXP-29592-SEG-StandUP-Marquee-SingleSided-001"
+                                alt=""></div>
+                        <div class="card_content1">
+                            <p>Silicone Edge Graphics</p>
+                        </div>
+                    </div>
+                    <div class="card2 swiper-slide">
+                        <div class="card-image1"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001763940/MXP28664-Signage-Cat-Page-Yard-Signs-001"
+                                alt=""></div>
+                        <div class="card_content1">
+                            <p>Yard Signs</p>
+                        </div>
+                    </div>
+                    <div class="card2 swiper-slide">
+                        <div class="card-image1"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001763875/MXP29592-Bella-Canvas-Ultra-Soft-Jersey-Tshirt-NA-PDP-Tile-001?cb=af05137eab18741af18e740a08115d2040684dc"
+                                alt=""></div>
+                        <div class="card_content1">
+                            <p>Bella+Canvas® Ultra-Soft Jersey T-shirt</p>
+                        </div>
+                    </div>
+                    <div class="card2 swiper-slide">
+                        <div class="card-image1"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001763939/MXP29592-May21-NA-Homepage-Packaging-Insert-Card-Tile-001"
+                                alt=""></div>
+                        <div class="card_content1">
+                            <p>packaging Insert Cards</p>
+                        </div>
+                    </div>
+                    <div class="card2 swiper-slide">
+                        <div class="card-image1"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001763934/MXP29592-May21-NA-Homepage-Gift-Card-Holder-Tile-001"
+                                alt=""></div>
+                        <div class="card_content1">
+                            <p>Gift Card Holders</p>
+                        </div>
+                    </div>
+                    <div class="card2 swiper-slide">
+                        <div class="card-image1"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001763929/MXP29592-Die-Cut-Bag-7-5x10-NoGusset-001"
+                                alt=""></div>
+                        <div class="card_content1">
+                            <p>Die-cut Handle Bags</p>
+                        </div>
+                    </div>
+                    <div class="card2 swiper-slide">
+                        <div class="card-image1"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001763917/MXP29592-Luxury-Bags-PrintableArea-front-and-back-001"
+                                alt=""></div>
+                        <div class="card_content1">
+                            <p>Luxury Gift Bags</p>
+                        </div>
+                    </div>
+                    <div class="card2 swiper-slide">
+                        <div class="card-image1"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001763905/MXP29592-May21-NA-Homepage-Leatherette-Journal-Tile-001"
+                                alt=""></div>
+                        <div class="card_content1">
+                            <p>Faux Leather Journals</p>
+                        </div>
+                    </div>
+                    <div class="card2 swiper-slide">
+                        <div class="card-image1"><img
+                                src="https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001763848/MXP29592-May21-NA-Homepage-Yeti-Drinkware-Tile-001"
+                                alt=""></div>
+                        <div class="card_content1">
+                            <p>Yeti® Drinkware</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <a href="#" class="scrollup" id="scroll-up"><i class='bx bx-chevrons-up'></i></a>
+    <footer>
+
+
+        <div class="footer1">
+
+
+
+            <div class="footer-box">
+                <ul class="atag">
+                    <li>
+
+                        <a href="#">My Account</a>
+                        <a href="#"> Home</a>
+                        <a href="#">Privacy and Cookie
+                            Policy</a>
+                        <a href="#">Terms and Conditions</a>
+                        <a href="#">Legal Notice</a>
+                        <p>My Account Home Privacy and cookie policy Terms and Conditions Legal Notice</p>
+                    </li>
+                </ul>
+                <p>© 2001-2024 Codixel. All rights reserved.</p>
+                <p>Shop 112,
+                    Lekki,
+                    Lagos Nigeria</p>
+            </div>
+            <div class="footer-box">
+                <div class="social div1"><img
+                        src="https://cms.cloudinary.vpsvc.com/image/upload/c_scale,dpr_auto,w_auto/page_icons/em_visa_icon.svg"
+                        alt="">
+                    <img src="https://cms.cloudinary.vpsvc.com/image/upload/c_scale,dpr_auto,w_auto/page_icons/em_mastercard_icon.svg"
+                        alt="">
+                    <img width="50" height="38"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFXp9lwDYBYJbkpsq19b4d3c4TIo_CdJ2zyQ&s"
+                        alt="">
+                    <img width="50" height="38" src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Paystack.png"
+                        alt=""></a>
+                </div>
+            </div>
+
+
+            <div class="div">
+
+                <div class="footer-box">
+                    <div class="social"><a href="https://www.facebook.com/codixels"><i
+                                class='bx bxl-facebook'></i></a><a href="https://x.com/codixels">
+                            <i class='bx bxl-twitter'></i></a>
+                        <a href="https://www.instagram.com/codixels"><i class='bx bxl-instagram'></i></a><a href="#"><i
+                                class='bx bxl-youtube'></i></a>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <div class="social div2"><a href=""><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/1200px-Flag_of_Nigeria.svg.png"
+                                width="50" height="38" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+    </footer>
+    <script src="work.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>var swiper = new Swiper("", {
+
+            direction: 'horizontal',
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            }
+
+            ,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            }
+
+            ,
+
+            breakpoints: {
+                320: {
+                    slidesPerView: 3,
+
+                }
+
+                ,
+                480: {
+                    slidesPerView: 3,
+
+                }
+
+                ,
+                768: {
+                    slidesPerView: 3,
+
+                }
+
+                ,
+                1200: {
+                    slidesPerView: 4,
+
+                }
+
+                ,
+
+                1400: {
+                    slidesPerView: 7,
+
+                }
+
+                ,
+            }
+
+            ,
+        });
+
+        var swiper = new Swiper(".card-container", {
+            direction: 'horizontal',
+            spaceBetween: 30,
+            slidesPerView: "auto",
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            }
+
+            ,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            }
+
+            ,
+
+
+        });
+
+        var swiper = new Swiper(".card-container1", {
+            direction: 'horizontal',
+            spaceBetween: 30,
+            slidesPerView: "auto",
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            }
+
+            ,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            }
+
+            ,
+        });
+
+        var swiper = new Swiper(".swip", {
+
+            slidesPerView: "auto",
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            }
+
+            ,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            }
+
+            ,
+        });
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
